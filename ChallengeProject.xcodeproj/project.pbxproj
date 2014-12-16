@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		CD0CE0891A40C07C002E5B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CE0881A40C07C002E5B32 /* main.m */; };
 		CD0CE08C1A40C07C002E5B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CE08B1A40C07C002E5B32 /* AppDelegate.m */; };
-		CD0CE08F1A40C07C002E5B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CE08E1A40C07C002E5B32 /* ViewController.m */; };
 		CD0CE0921A40C07D002E5B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0CE0901A40C07D002E5B32 /* Main.storyboard */; };
 		CD0CE0941A40C07D002E5B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0CE0931A40C07D002E5B32 /* Images.xcassets */; };
 		CD0CE0971A40C07D002E5B32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0CE0951A40C07D002E5B32 /* LaunchScreen.xib */; };
 		CD0CE0A31A40C07E002E5B32 /* ChallengeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CE0A21A40C07E002E5B32 /* ChallengeProjectTests.m */; };
+		CD0CE0AE1A40C6B2002E5B32 /* ChallengeProTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CE0AD1A40C6B2002E5B32 /* ChallengeProTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		CD0CE0881A40C07C002E5B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD0CE08A1A40C07C002E5B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD0CE08B1A40C07C002E5B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD0CE08D1A40C07C002E5B32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD0CE08E1A40C07C002E5B32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD0CE0911A40C07D002E5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD0CE0931A40C07D002E5B32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD0CE0961A40C07D002E5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD0CE09C1A40C07E002E5B32 /* ChallengeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0CE0A11A40C07E002E5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0CE0A21A40C07E002E5B32 /* ChallengeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeProjectTests.m; sourceTree = "<group>"; };
+		CD0CE0AC1A40C6B2002E5B32 /* ChallengeProTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengeProTableViewController.h; path = ../ChallengeProTableViewController.h; sourceTree = "<group>"; };
+		CD0CE0AD1A40C6B2002E5B32 /* ChallengeProTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeProTableViewController.m; path = ../ChallengeProTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				CD0CE08A1A40C07C002E5B32 /* AppDelegate.h */,
 				CD0CE08B1A40C07C002E5B32 /* AppDelegate.m */,
-				CD0CE08D1A40C07C002E5B32 /* ViewController.h */,
-				CD0CE08E1A40C07C002E5B32 /* ViewController.m */,
 				CD0CE0901A40C07D002E5B32 /* Main.storyboard */,
+				CD0CE0AC1A40C6B2002E5B32 /* ChallengeProTableViewController.h */,
+				CD0CE0AD1A40C6B2002E5B32 /* ChallengeProTableViewController.m */,
 				CD0CE0931A40C07D002E5B32 /* Images.xcassets */,
 				CD0CE0951A40C07D002E5B32 /* LaunchScreen.xib */,
 				CD0CE0861A40C07B002E5B32 /* Supporting Files */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0CE08F1A40C07C002E5B32 /* ViewController.m in Sources */,
 				CD0CE08C1A40C07C002E5B32 /* AppDelegate.m in Sources */,
+				CD0CE0AE1A40C6B2002E5B32 /* ChallengeProTableViewController.m in Sources */,
 				CD0CE0891A40C07C002E5B32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChallengeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChallengeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +414,7 @@
 				CD0CE0A81A40C07F002E5B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD0CE0A91A40C07F002E5B32 /* Build configuration list for PBXNativeTarget "ChallengeProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +423,7 @@
 				CD0CE0AB1A40C07F002E5B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChallengeProTableViewController.h
 //  ChallengeProject
 //
 //  Created by diane kaleka on 12/16/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ChallengeProTableViewController : UITableViewController
 
 @end
-
